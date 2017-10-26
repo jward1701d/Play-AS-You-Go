@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play_As_You_Go", "Play_As_You_Go\Play_As_You_Go\Play_As_You_Go.csproj", "{19B9A1AA-59F4-4632-BBED-DBF464796780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play_As_You_GoContent", "Play_As_You_Go\Play_As_You_GoContent\Play_As_You_GoContent.contentproj", "{4F927E3C-7854-46B6-AC16-1BA04BA3B9DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xbox 360 Copy of Play_As_You_Go", "Play_As_You_Go\Play_As_You_Go\Xbox 360 Copy of Play_As_You_Go.csproj", "{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B58A21B6-B68E-44F3-AC6C-142F6F398499}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Play_As_You_Go.vsd = ..\..\Play_As_You_Go.vsd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Debug|Xbox 360 = Debug|Xbox 360
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Debug|x86.ActiveCfg = Debug|x86
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Debug|x86.Build.0 = Debug|x86
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Debug|Xbox 360.ActiveCfg = Debug|x86
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Debug|Xbox 360.Build.0 = Debug|x86
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Release|Mixed Platforms.Build.0 = Release|x86
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Release|x86.ActiveCfg = Release|x86
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Release|x86.Build.0 = Release|x86
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Release|Xbox 360.ActiveCfg = Release|x86
+		{19B9A1AA-59F4-4632-BBED-DBF464796780}.Release|Xbox 360.Build.0 = Release|x86
+		{4F927E3C-7854-46B6-AC16-1BA04BA3B9DA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{4F927E3C-7854-46B6-AC16-1BA04BA3B9DA}.Debug|x86.ActiveCfg = Debug|x86
+		{4F927E3C-7854-46B6-AC16-1BA04BA3B9DA}.Debug|Xbox 360.ActiveCfg = Debug|x86
+		{4F927E3C-7854-46B6-AC16-1BA04BA3B9DA}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{4F927E3C-7854-46B6-AC16-1BA04BA3B9DA}.Release|x86.ActiveCfg = Release|x86
+		{4F927E3C-7854-46B6-AC16-1BA04BA3B9DA}.Release|Xbox 360.ActiveCfg = Release|x86
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Debug|Mixed Platforms.ActiveCfg = Debug|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Debug|Mixed Platforms.Build.0 = Debug|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Debug|Mixed Platforms.Deploy.0 = Debug|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Debug|x86.ActiveCfg = Debug|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Debug|Xbox 360.Deploy.0 = Debug|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Release|Mixed Platforms.ActiveCfg = Release|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Release|Mixed Platforms.Build.0 = Release|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Release|Mixed Platforms.Deploy.0 = Release|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Release|x86.ActiveCfg = Release|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Release|Xbox 360.Build.0 = Release|Xbox 360
+		{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}.Release|Xbox 360.Deploy.0 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

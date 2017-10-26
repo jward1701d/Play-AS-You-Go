@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{0E5D3573-90CF-45B0-8D6C-67EB04C7EDB0}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Xbox 360</Platform>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Play_As_You_Go</RootNamespace>
+    <AssemblyName>Play_As_You_Go</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Xbox 360</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>06ca6517-01b3-4e0d-89c3-3f278a6d6fd5</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Xbox 360' ">
+    <OutputPath>bin\Xbox 360\Debug</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE;XBOX;XBOX360</DefineConstants>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Xbox 360' ">
+    <OutputPath>bin\Xbox 360\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE;XBOX;XBOX360</DefineConstants>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Play_As_You_GoContent\Play_As_You_GoContent.contentproj">
+      <Name>Play_As_You_GoContent %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+      <Project>{4F927E3C-7854-46B6-AC16-1BA04BA3B9DA}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Manager Classes\FirstRunScreen.cs" />
+    <Compile Include="Manager Classes\FramesPerSecond.cs" />
+    <Compile Include="Manager Classes\GameObject.cs" />
+    <Compile Include="Manager Classes\GameScreen.cs" />
+    <Compile Include="Manager Classes\InputControlSystem.cs" />
+    <Compile Include="Manager Classes\ISsystem.cs" />
+    <Compile Include="Manager Classes\LoadingScreen.cs" />
+    <Compile Include="Manager Classes\MenuEntry.cs" />
+    <Compile Include="Manager Classes\MenuScreen.cs" />
+    <Compile Include="Manager Classes\PauseScreen.cs" />
+    <Compile Include="Manager Classes\PlayerIndexEventArg.cs" />
+    <Compile Include="Manager Classes\ScreenManager.cs" />
+    <Compile Include="Play_As_You_Go.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Screens\BeyondSpace\BackStory.cs" />
+    <Compile Include="Screens\BeyondSpace\BSHighScore.cs" />
+    <Compile Include="Screens\BeyondSpace\BSInfo.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel1.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel10.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel11.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel12.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel13.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel14.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel15.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel16.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel17.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel18.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel19.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel2.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel20.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel3.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel4.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel5.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel6.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel7.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel8.cs" />
+    <Compile Include="Screens\BeyondSpace\BSLevels\BSLevel9.cs" />
+    <Compile Include="Screens\BeyondSpace\BSMainMenue.cs" />
+    <Compile Include="Screens\CheckScoreScreen.cs" />
+    <Compile Include="Screens\ColorMimic\ColorMimicGame.cs" />
+    <Compile Include="Screens\ColorMimic\ColorMimicHighScore.cs" />
+    <Compile Include="Screens\ColorMimic\ColorMimicInfo.cs" />
+    <Compile Include="Screens\ColorMimic\ColorMimicMainMenu.cs" />
+    <Compile Include="Screens\ColorMimic\ManagerClass\InputHelper.cs" />
+    <Compile Include="Screens\creditScreen.cs" />
+    <Compile Include="Screens\CreditsScreen.cs" />
+    <Compile Include="Screens\DemoVid.cs" />
+    <Compile Include="Screens\H1N1\H1N1BackStory.cs" />
+    <Compile Include="Screens\H1N1\H1N1HelperClasses\H1N1Hud.cs" />
+    <Compile Include="Screens\H1N1\H1N1HighScoreScreen.cs" />
+    <Compile Include="Screens\H1N1\H1N1KeybordCotrols.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_01.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_02.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_03.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_04.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_05.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_06.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_07.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_08.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_09.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_10.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_11.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_12.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_13.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_14.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_15.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_16.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_17.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_18.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_19.cs" />
+    <Compile Include="Screens\H1N1\H1N1Levels\H1N1Level_20.cs" />
+    <Compile Include="Screens\H1N1\H1N1MenuScreen.cs" />
+    <Compile Include="Screens\H1N1\H1N1xbox360PaddleControls.cs" />
+    <Compile Include="Screens\HighScoreInterface.cs" />
+    <Compile Include="Screens\IntroScreen.cs" />
+    <Compile Include="Screens\LogoScreen.cs" />
+    <Compile Include="Screens\PlayAsYouGoMainMenu.cs" />
+    <Compile Include="Screens\PreMenu.cs" />
+    <Compile Include="Screens\TopScoresScreen.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>
